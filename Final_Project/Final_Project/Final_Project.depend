@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1461732561 source:/home/user/Dropbox/Staples_CSCI2270_FinalProject/Final_Project/main.cpp
+	<iostream>
+	"game.h"
+
+1461732648 source:/home/user/Dropbox/Staples_CSCI2270_FinalProject/Final_Project/src/game.cpp
+	"game.h"
+	<iostream>
+	<cstdlib>
+
+1461732561 /home/user/Dropbox/Staples_CSCI2270_FinalProject/Final_Project/include/game.h
+	<string>
+	<vector>
+	<iostream>
+
