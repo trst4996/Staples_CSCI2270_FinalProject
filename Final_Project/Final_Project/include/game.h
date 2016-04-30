@@ -33,9 +33,6 @@ class game
         void printthegods();
         int zero_one();
         int monsterHP();
-        int sword();
-        int sing();
-        int answer();
     protected:
     private:
         listname *headfallen;
