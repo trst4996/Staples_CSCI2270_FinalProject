@@ -74,9 +74,13 @@ int main()
             cout<<"The list of the gods"<<endl;
             newgame.printthegods();
             cout<<endl;
-        }else{
+        }else if(play == "n"){ //When the user types 'n', exit the program.
             cout<<":("<<endl;
             test=1;
+            return 0;
+        }
+        else{//When the user didn't type 'y' or 'n', error message shows and program goes to beginning of the code.
+            cout << "Type again!!" << endl; 
         }
         if(test2==1){
             int hp;
